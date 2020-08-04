@@ -4,7 +4,7 @@ import {
     MdCheckBox,
     MdRemoveCircleOutline
 } from 'react-icons/md';
-import cn from 'classnames';
+import cn from 'classnames'; // 조건부 스타일링을 위해 사용
 import './TodoListItem.scss';
 
 const TodoListItem = ({todo, onRemove, onToggle}) => {

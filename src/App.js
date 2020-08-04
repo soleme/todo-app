@@ -24,6 +24,7 @@ const App = ()=>{
 
   // 고유값으로 사용될 id
   // ref를 사용하여 변수 담기
+  // id값은 렌더링되는 정보가 아니기 때문에 useRef사용.
   const nextId = useRef(4);
 
   const onInsert = useCallback(
